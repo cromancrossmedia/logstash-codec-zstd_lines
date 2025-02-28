@@ -1,4 +1,4 @@
-:plugin: gzip_lines
+:plugin: zstd_lines
 :type: codec
 
 ///////////////////////////////////////////
@@ -14,16 +14,16 @@ END - GENERATED VARIABLES, DO NOT EDIT!
 
 [id="plugins-{type}s-{plugin}"]
 
-=== Gzip_lines codec plugin
+=== Zstd_lines codec plugin
 
 include::{include_path}/plugin_header.asciidoc[]
 
 ==== Description
 
-This codec will read gzip encoded content
+This codec will read zstd encoded content
 
 [id="plugins-{type}s-{plugin}-options"]
-==== Gzip_lines Codec Configuration Options
+==== Zstd_lines Codec Configuration Options
 
 [cols="<,<,<",options="header",]
 |=======================================================================
